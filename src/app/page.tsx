@@ -54,6 +54,7 @@ export default function LandingPage() {
       buttons={[
         { text: "Jetzt bestellen", href: "#contact" },
       ]}
+      buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
       imageAlt="Authentische Neapolitanische Pizza"
       mediaAnimation="blur-reveal"
