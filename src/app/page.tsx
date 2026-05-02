@@ -88,7 +88,7 @@ export default function LandingPage() {
         { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg" },
       ]}
       title="Unsere Pizza-Highlights"
-      description="Entdecken Sie unsere handgemachten Pizzas, optimiert für den perfekten Genuss zu Hause."
+      description="Verfeinert mit süßen San Marzano Tomaten, cremigem Fior di Latte Mozzarella und frischem Basilikum – ein authentisch neapolitanisches Geschmackserlebnis in jeder Scheibe."
     />
   </div>
 
