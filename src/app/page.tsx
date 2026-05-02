@@ -86,7 +86,7 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P.", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://img.b2bpic.net/free-photo/margherita-pizza-with-fresh-basil-and-mozzarella.jpg" },
+        { id: "p1", brand: "Klassiker", name: "Margherita", price: "10 CHF", rating: 5, reviewCount: "120", imageSrc: "https://img.b2bpic.net/free-photo/margherita-pizza-with-fresh-basil-and-mozzarella.jpg" },
         { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://img.b2bpic.net/free-photo/spicy-salami-diavola-pizza-with-chili.jpg" },
         { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://img.b2bpic.net/free-photo/vegetarian-pizza-with-bell-peppers-zucchini-and-olives.jpg" },
         { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://img.b2bpic.net/free-photo/pizza-prosciutto-funghi-with-mushrooms-and-ham.jpg" },
