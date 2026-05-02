@@ -31,25 +31,15 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Philosophy",
-          id: "about",
-        },
+          name: "Philosophy",          id: "about"},
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "Reviews",
-          id: "testimonials",
-        },
+          name: "Reviews",          id: "testimonials"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Pizza da Vincenzo"
     />
@@ -58,82 +48,51 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitKpi
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Pizza da Vincenzo: Authentisch Neapolitanisch in Arbon"
       description="Erleben Sie echte neapolitanische Pizzakunst. Handgefertigter Teig, 48 Stunden gereift, aus dem Holzofen – direkt zu Ihnen nach Hause in 10 Minuten."
       kpis={[
         {
-          value: "4.9/5",
-          label: "Google Rating",
-        },
+          value: "4.9/5",          label: "Google Rating"},
         {
-          value: "48h",
-          label: "Teig Reifezeit",
-        },
+          value: "48h",          label: "Teig Reifezeit"},
         {
-          value: "10m",
-          label: "Bereit für Sie",
-        },
+          value: "10m",          label: "Bereit für Sie"},
       ]}
       enableKpiAnimation={true}
       buttons={[
         {
-          text: "Jetzt Bestellen",
-          href: "#contact",
-        },
+          text: "Jetzt Bestellen",          href: "#contact"},
         {
-          text: "Speisekarte",
-          href: "#menu",
-        },
+          text: "Speisekarte",          href: "#menu"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
       imageAlt="Authentische Neapolitanische Pizza"
       mediaAnimation="blur-reveal"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/arrangement-tasty-pizza-making_23-2148921361.jpg",
-          alt: "Kunde 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/arrangement-tasty-pizza-making_23-2148921361.jpg",          alt: "Kunde 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/top-view-sliced-pizza-with-parmesan-cutter_23-2148753762.jpg",
-          alt: "Kunde 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/top-view-sliced-pizza-with-parmesan-cutter_23-2148753762.jpg",          alt: "Kunde 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/smoked-salmon-pizza_1339-1002.jpg",
-          alt: "Kunde 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/smoked-salmon-pizza_1339-1002.jpg",          alt: "Kunde 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-hand-holding-sauce-bottle_23-2148773532.jpg",
-          alt: "Kunde 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-hand-holding-sauce-bottle_23-2148773532.jpg",          alt: "Kunde 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/high-angle-pizza-breakfast_23-2148858494.jpg",
-          alt: "Kunde 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/high-angle-pizza-breakfast_23-2148858494.jpg",          alt: "Kunde 5"},
       ]}
       avatarText="Über 1.000 begeisterte Gäste aus Arbon"
       marqueeItems={[
         {
-          type: "text",
-          text: "Frische Zutaten",
-        },
+          type: "text",          text: "Frische Zutaten"},
         {
-          type: "text",
-          text: "Original Neapolitanisch",
-        },
+          type: "text",          text: "Original Neapolitanisch"},
         {
-          type: "text",
-          text: "48h Teigruhe",
-        },
+          type: "text",          text: "48h Teigruhe"},
         {
-          type: "text",
-          text: "Holzofen-gebacken",
-        },
+          type: "text",          text: "Holzofen-gebacken"},
         {
-          type: "text",
-          text: "Regionale Partner",
-        },
+          type: "text",          text: "Regionale Partner"},
       ]}
     />
   </div>
@@ -145,17 +104,11 @@ export default function LandingPage() {
       description="Bei Vincenzo ist Pizza kein schnelles Fast-Food, sondern ein Handwerk. Wir nutzen importierte San-Marzano-Tomaten, Fior di Latte und viel Liebe, um ein Stück Neapel nach Arbon zu bringen."
       metrics={[
         {
-          value: "100%",
-          title: "Authentizität",
-        },
+          value: "100%",          title: "Authentizität"},
         {
-          value: "24h",
-          title: "Frische-Garantie",
-        },
+          value: "24h",          title: "Frische-Garantie"},
         {
-          value: "10+",
-          title: "Jahre Erfahrung",
-        },
+          value: "10+",          title: "Jahre Erfahrung"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27026.jpg"
       imageAlt="Traditionelles Pizzahandwerk"
@@ -171,59 +124,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          brand: "Klassiker",
-          name: "Margherita D.O.P.",
-          price: "18.50 CHF",
-          rating: 5,
-          reviewCount: "120",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-seasonings-dark-desk-dough-food-pizza-meal-italian_140725-101767.jpg",
-        },
+          id: "p1",          brand: "Klassiker",          name: "Margherita D.O.P.",          price: "18.50 CHF",          rating: 5,
+          reviewCount: "120",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-seasonings-dark-desk-dough-food-pizza-meal-italian_140725-101767.jpg"},
         {
-          id: "p2",
-          brand: "Spezialität",
-          name: "Diavola Luxe",
-          price: "21.00 CHF",
-          rating: 5,
-          reviewCount: "85",
-          imageSrc: "http://img.b2bpic.net/free-photo/cheese-plate-with-glass-cup-smoked-cheese-middle_140725-230.jpg",
-        },
+          id: "p2",          brand: "Spezialität",          name: "Diavola Luxe",          price: "21.00 CHF",          rating: 5,
+          reviewCount: "85",          imageSrc: "http://img.b2bpic.net/free-photo/cheese-plate-with-glass-cup-smoked-cheese-middle_140725-230.jpg"},
         {
-          id: "p3",
-          brand: "Vegetarisch",
-          name: "Verdure Fresche",
-          price: "19.50 CHF",
-          rating: 5,
-          reviewCount: "92",
-          imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg",
-        },
+          id: "p3",          brand: "Vegetarisch",          name: "Verdure Fresche",          price: "19.50 CHF",          rating: 5,
+          reviewCount: "92",          imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg"},
         {
-          id: "p4",
-          brand: "Feinschmecker",
-          name: "Tartufo Bianco",
-          price: "24.00 CHF",
-          rating: 5,
-          reviewCount: "67",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sliced-mushroom-pizza-delicious-dough-with-fresh-vegetables-dark-surface-dough-meal-food-italian-bake_140725-102074.jpg",
-        },
+          id: "p4",          brand: "Feinschmecker",          name: "Tartufo Bianco",          price: "24.00 CHF",          rating: 5,
+          reviewCount: "67",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sliced-mushroom-pizza-delicious-dough-with-fresh-vegetables-dark-surface-dough-meal-food-italian-bake_140725-102074.jpg"},
         {
-          id: "p5",
-          brand: "Klassiker",
-          name: "Prosciutto e Funghi",
-          price: "20.50 CHF",
-          rating: 5,
-          reviewCount: "105",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-pepperoni-pizza-with-sausage-tomato-sauce-cheese-herb-sprinkles_140725-652.jpg",
-        },
+          id: "p5",          brand: "Klassiker",          name: "Prosciutto e Funghi",          price: "20.50 CHF",          rating: 5,
+          reviewCount: "105",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-pepperoni-pizza-with-sausage-tomato-sauce-cheese-herb-sprinkles_140725-652.jpg"},
         {
-          id: "p6",
-          brand: "Traditionell",
-          name: "Capricciosa",
-          price: "21.50 CHF",
-          rating: 5,
-          reviewCount: "78",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-raw-pasta-with-rice-red-tomatoes-dark-surface-pasta-dough-raw_140725-82556.jpg",
-        },
+          id: "p6",          brand: "Traditionell",          name: "Capricciosa",          price: "21.50 CHF",          rating: 5,
+          reviewCount: "78",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-raw-pasta-with-rice-red-tomatoes-dark-surface-pasta-dough-raw_140725-82556.jpg"},
       ]}
       title="Unsere Meisterwerke"
       description="Eine sorgfältige Auswahl unserer beliebtesten Kreationen, von klassisch bis luxuriös."
@@ -237,26 +154,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",
-          title: "San Marzano Tomaten",
-          description: "Importiert aus der Region um den Vesuv für ein perfekt balanciertes Aroma.",
-          tag: "Herkunft",
-          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-tagliatelle-with-basil-vegetables_23-2148567102.jpg",
-        },
+          id: "f1",          title: "San Marzano Tomaten",          description: "Importiert aus der Region um den Vesuv für ein perfekt balanciertes Aroma.",          tag: "Herkunft",          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-tagliatelle-with-basil-vegetables_23-2148567102.jpg"},
         {
-          id: "f2",
-          title: "48h Reifezeit",
-          description: "Unser Teig darf lange ruhen, für höchste Bekömmlichkeit und Geschmack.",
-          tag: "Handwerk",
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-burrata-cheese-with-cherry-tomatoes-herbs-slate_84443-82461.jpg",
-        },
+          id: "f2",          title: "48h Reifezeit",          description: "Unser Teig darf lange ruhen, für höchste Bekömmlichkeit und Geschmack.",          tag: "Handwerk",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-burrata-cheese-with-cherry-tomatoes-herbs-slate_84443-82461.jpg"},
         {
-          id: "f3",
-          title: "Holzofen-Hitze",
-          description: "Über 400°C für die typische neapolitanische Kruste in wenigen Minuten.",
-          tag: "Tradition",
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-italian-salad-antipasto-called-caprese-with-buffalo-mozzarella-sliced-tomatoes-basil-with-olive-oil-ingredients-vegetarian-caprese-salad-italian-food-top-view-rustic-style_1150-44799.jpg",
-        },
+          id: "f3",          title: "Holzofen-Hitze",          description: "Über 400°C für die typische neapolitanische Kruste in wenigen Minuten.",          tag: "Tradition",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-italian-salad-antipasto-called-caprese-with-buffalo-mozzarella-sliced-tomatoes-basil-with-olive-oil-ingredients-vegetarian-caprese-salad-italian-food-top-view-rustic-style_1150-44799.jpg"},
       ]}
       title="Warum Vincenzo?"
       description="Wir setzen auf kompromisslose Qualität in jedem Schritt."
@@ -268,14 +170,7 @@ export default function LandingPage() {
       textboxLayout="split-description"
       useInvertedBackground={false}
       names={[
-        "Latteria Arbon",
-        "Bäckerei Gold",
-        "Frutta Nazionale",
-        "Toscana Weine",
-        "Gastronomie Arbon",
-        "Regional Verband",
-        "Swiss Quality",
-      ]}
+        "Latteria Arbon",        "Bäckerei Gold",        "Frutta Nazionale",        "Toscana Weine",        "Gastronomie Arbon",        "Regional Verband",        "Swiss Quality"]}
       title="Unsere Partner & Zertifikate"
       description="Wir arbeiten nur mit den Besten der Region zusammen."
     />
@@ -288,67 +183,31 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Marco Rossi",
-          role: "Stammgast",
-          company: "Arbon",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/attractive-young-woman-hands-holds-two-burgers-blurred-background_169016-43765.jpg",
-        },
+          id: "1",          name: "Marco Rossi",          role: "Stammgast",          company: "Arbon",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/attractive-young-woman-hands-holds-two-burgers-blurred-background_169016-43765.jpg"},
         {
-          id: "2",
-          name: "Julia M.",
-          role: "Feinschmeckerin",
-          company: "Arbon",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/asian-friends-couple-eating-pizza-party-pizzeria-happy-indian-people-having-fun-together-eating-italian-food-sitting-couch_627829-1247.jpg",
-        },
+          id: "2",          name: "Julia M.",          role: "Feinschmeckerin",          company: "Arbon",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/asian-friends-couple-eating-pizza-party-pizzeria-happy-indian-people-having-fun-together-eating-italian-food-sitting-couch_627829-1247.jpg"},
         {
-          id: "3",
-          name: "Lukas B.",
-          role: "Pizza-Fan",
-          company: "Arbon",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/elegantly-dressed-couple-handsome-stylish-male-charming-brunette-woman-sitting-together-luxury-restaurant_613910-18589.jpg",
-        },
+          id: "3",          name: "Lukas B.",          role: "Pizza-Fan",          company: "Arbon",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/elegantly-dressed-couple-handsome-stylish-male-charming-brunette-woman-sitting-together-luxury-restaurant_613910-18589.jpg"},
         {
-          id: "4",
-          name: "Elena K.",
-          role: "Kundin",
-          company: "Arbon",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/caesar-pizza-table_140725-6527.jpg",
-        },
+          id: "4",          name: "Elena K.",          role: "Kundin",          company: "Arbon",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/caesar-pizza-table_140725-6527.jpg"},
         {
-          id: "5",
-          name: "Thomas Z.",
-          role: "Kunde",
-          company: "Arbon",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/aged-middle-expression-calling-business_1262-2838.jpg",
-        },
+          id: "5",          name: "Thomas Z.",          role: "Kunde",          company: "Arbon",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/aged-middle-expression-calling-business_1262-2838.jpg"},
         {
-          id: "6",
-          name: "Sarah P.",
-          role: "Besucherin",
-          company: "St. Gallen",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-pizza-table_23-2150307015.jpg",
-        },
+          id: "6",          name: "Sarah P.",          role: "Besucherin",          company: "St. Gallen",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-pizza-table_23-2150307015.jpg"},
       ]}
       kpiItems={[
         {
-          value: "5.0",
-          label: "Qualität",
-        },
+          value: "5.0",          label: "Qualität"},
         {
-          value: "98%",
-          label: "Zufriedenheit",
-        },
+          value: "98%",          label: "Zufriedenheit"},
         {
-          value: "1.2k+",
-          label: "Pizzen/Monat",
-        },
+          value: "1.2k+",          label: "Pizzen/Monat"},
       ]}
       title="Was Arbon sagt"
       description="Kundenstimmen, die uns antreiben."
@@ -359,14 +218,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       text="Hungrig? Rufen Sie uns jetzt an oder besuchen Sie uns in Arbon. Wir freuen uns darauf, Sie zu bekochen!"
       buttons={[
         {
-          text: "Jetzt anrufen: 071 000 00 00",
-          href: "tel:0710000000",
-        },
+          text: "Jetzt anrufen: 079 606 24 50",          href: "tel:0796062450"},
       ]}
     />
   </div>
@@ -375,34 +231,23 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Pizza da Vincenzo",
-          items: [
+          title: "Pizza da Vincenzo",          items: [
             {
-              label: "Hauptstrasse 1, 9320 Arbon",
-              href: "#",
-            },
+              label: "Hauptstrasse 1, 9320 Arbon",              href: "#"},
           ],
         },
         {
-          title: "Öffnungszeiten",
-          items: [
+          title: "Öffnungszeiten",          items: [
             {
-              label: "Mo–So: 11:30–21:30",
-              href: "#",
-            },
+              label: "Mo–So: 11:30–21:30",              href: "#"},
           ],
         },
         {
-          title: "Rechtliches",
-          items: [
+          title: "Rechtliches",          items: [
             {
-              label: "Impressum",
-              href: "#",
-            },
+              label: "Impressum",              href: "#"},
             {
-              label: "Datenschutz",
-              href: "#",
-            },
+              label: "Datenschutz",              href: "#"},
           ],
         },
       ]}
