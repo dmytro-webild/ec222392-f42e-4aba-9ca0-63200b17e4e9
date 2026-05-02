@@ -8,7 +8,7 @@ import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 
 export default function LandingPage() {
   const handleCall = () => {
@@ -100,15 +100,13 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-    <TestimonialCardFive
-      title="Was unsere Gäste sagen"
-      description="Authentische neapolitanische Pizza begeistert – lesen Sie, warum Kunden Pizza da Vincenzo in Arbon schätzen."
-      textboxLayout="split"
-      testimonials={[
-        { id: "t1", name: "Marco Rossi", date: "Vor 2 Wochen", title: "Unglaublich gut!", quote: "Die beste neapolitanische Pizza, die ich in der Schweiz gegessen habe. Absolut empfehlenswert.", tag: "Top", avatarSrc: "https://i.pravatar.cc/150?u=1" },
-        { id: "t2", name: "Sarah Müller", date: "Vor 1 Monat", title: "Wahrer Genuss", quote: "Der Teig ist einfach perfekt – genau wie in Italien. Man merkt die 48 Stunden Ruhezeit.", tag: "Stammgast", avatarSrc: "https://i.pravatar.cc/150?u=2" },
-        { id: "t3", name: "Lukas Weber", date: "Vor 3 Tagen", title: "Mein go-to Takeout", quote: "Schnell, freundlich und extrem lecker. Die Diavola ist der Wahnsinn.", tag: "Fan", avatarSrc: "https://i.pravatar.cc/150?u=3" }
-      ]}
+    <TestimonialCardFifteen
+      testimonial="Die beste Pizza in der Schweiz! Der Teig ist unglaublich luftig und die Zutaten sind absolut frisch. Ein echter Geheimtipp für jeden, der authentische neapolitanische Pizza liebt."
+      rating={5}
+      author="Elena S."
+      avatars={[{ src: "https://i.pravatar.cc/150?u=4", alt: "Elena S." }]}
+      ratingAnimation="slide-up"
+      avatarsAnimation="opacity"
       useInvertedBackground={true}
     />
   </div>
