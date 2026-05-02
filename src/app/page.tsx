@@ -86,12 +86,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita", price: "10 CHF", rating: 5, reviewCount: "120", imageSrc: "https://img.b2bpic.net/free-photo/margherita-pizza-with-fresh-basil-and-mozzarella.jpg" },
-        { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://img.b2bpic.net/free-photo/spicy-salami-diavola-pizza-with-chili.jpg" },
-        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://img.b2bpic.net/free-photo/vegetarian-pizza-with-bell-peppers-zucchini-and-olives.jpg" },
-        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://img.b2bpic.net/free-photo/pizza-prosciutto-funghi-with-mushrooms-and-ham.jpg" },
-        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://img.b2bpic.net/free-photo/tuna-and-red-onion-pizza-artisan-style.jpg" },
-        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://img.b2bpic.net/free-photo/capricciosa-pizza-with-artichokes-mushrooms-and-olives.jpg" },
+        { id: "p1", brand: "Klassiker", name: "Margherita", price: "10 CHF", rating: 5, reviewCount: "120", imageSrc: "https://img.b2bpic.net/free-photo/pizza-margherita-with-mozzarella-basil-tomato-sauce.jpg" },
+        { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://img.b2bpic.net/free-photo/pizza-diavola-with-salami-piccante-chili-oil.jpg" },
+        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://img.b2bpic.net/free-photo/pizza-verdure-with-fresh-grilled-vegetables.jpg" },
+        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://img.b2bpic.net/free-photo/pizza-prosciutto-funghi-with-mushrooms-ham.jpg" },
+        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://img.b2bpic.net/free-photo/pizza-tonno-cipolla-tuna-onion.jpg" },
+        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://img.b2bpic.net/free-photo/pizza-capricciosa-with-artichokes-ham-mushrooms-olives.jpg" },
       ]}
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
