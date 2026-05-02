@@ -99,6 +99,7 @@ export default function LandingPage() {
       text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Montags geschlossen. Wir freuen uns auf Ihren Besuch!"
       buttons={[
         { text: "Jetzt bestellen: 079 606 24 50", href: "tel:0796062450" },
+        { text: "Wegbeschreibung anzeigen", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
       ]}
     />
   </div>
