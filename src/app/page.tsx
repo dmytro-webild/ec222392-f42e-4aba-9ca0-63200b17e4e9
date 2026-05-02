@@ -63,7 +63,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MetricSplitMediaAbout
       useInvertedBackground={false}
-      title="Tradition & Qualität in Arbon"
+      title="Authentische neapolitanische Pizza in Arbon"
       description="Bei Pizza da Vincenzo steht Qualität an erster Stelle. Von der Romanshornerstrasse 30 bringen wir echtes italienisches Flair zu Ihnen. Wir verwenden nur die besten Zutaten wie San-Marzano-Tomaten und Fior di Latte für unser Takeout-Konzept, das auf Frische und Handwerk setzt."
       metrics={[
         { value: "100%", title: "Handarbeit" },
