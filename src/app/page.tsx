@@ -8,7 +8,7 @@ import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
+import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 
 export default function LandingPage() {
   const handleCall = () => {
@@ -100,14 +100,23 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-    <TestimonialCardFifteen
-      testimonial="Die beste Pizza in der Schweiz! Der Teig ist unglaublich luftig und die Zutaten sind absolut frisch. Ein echter Geheimtipp für jeden, der authentische neapolitanische Pizza liebt."
-      rating={5}
-      author="Elena S."
-      avatars={[{ src: "https://i.pravatar.cc/150?u=4", alt: "Elena S." }]}
-      ratingAnimation="slide-up"
-      avatarsAnimation="opacity"
+    <TestimonialCardSixteen
+      title="Das sagen unsere Kunden"
+      description="Erfahren Sie, warum Pizza da Vincenzo die erste Wahl für authentische neapolitanische Pizza in Arbon ist."
       useInvertedBackground={true}
+      animationType="slide-up"
+      textboxLayout="default"
+      kpiItems={[
+        { value: "5.0", label: "Google Schnitt" },
+        { value: "500+", label: "Zufriedene Gäste" },
+        { value: "100%", label: "Neapolitanisch" }
+      ]}
+      testimonials={[
+        { id: "1", name: "Elena S.", role: "Stammkundin", company: "Arbon", rating: 5 },
+        { id: "2", name: "Marco R.", role: "Feinschmecker", company: "St. Gallen", rating: 5 },
+        { id: "3", name: "Julia M.", role: "Liebhaberin", company: "Romanshorn", rating: 5 },
+        { id: "4", name: "Luca T.", role: "Pizza-Fan", company: "Amriswil", rating: 5 }
+      ]}
     />
   </div>
 
