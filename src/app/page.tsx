@@ -52,7 +52,7 @@ export default function LandingPage() {
       ]}
       enableKpiAnimation={true}
       buttons={[
-        { text: "Jetzt bestellen", href: "#contact" },
+        { text: "Jetzt bestellen & genießen", href: "#contact" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
       imageAlt="Authentische Neapolitanische Pizza"
