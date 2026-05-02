@@ -86,7 +86,7 @@ export default function LandingPage() {
         { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche - Mit Grillgemüse & Oliven", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" },
       ]}
       title="Unsere Speisekarte"
-      description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
+      description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet. Bestellung per Anruf oder einfach direkt bei uns abholen!"
       buttons={[
         { text: "Jetzt bestellen", href: "#contact" }
       ]}
