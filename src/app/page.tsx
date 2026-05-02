@@ -53,7 +53,7 @@ export default function LandingPage() {
       ]}
       enableKpiAnimation={true}
       buttons={[
-        { text: "Call to order: 079 606 24 50", onClick: handleCall },
+        { text: "Jetzt anrufen: 079 606 24 50", onClick: handleCall },
       ]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
@@ -92,7 +92,7 @@ export default function LandingPage() {
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet. Bestellung per Anruf oder einfach direkt bei uns abholen!"
       buttons={[
-        { text: "Jetzt bestellen", onClick: handleCall }
+        { text: "Jetzt anrufen", onClick: handleCall }
       ]}
       buttonAnimation="slide-up"
     />
