@@ -89,9 +89,9 @@ export default function LandingPage() {
         { id: "p1", brand: "Klassiker", name: "Margherita", price: "10.00 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750662221-iat8qgmr.webp" },
         { id: "p2", brand: "Pikant", name: "Funghi ", price: "10.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750863137-3j35k8bn.avif" },
         { id: "p3", brand: "Vegetarisch", name: "Quattro Formaggi ", price: "12.00 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750909213-bkp41ihq.jpg" },
-        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://img.b2bpic.net/free-photo/pizza-prosciutto-funghi-with-mushrooms-ham.jpg" },
-        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://img.b2bpic.net/free-photo/pizza-tonno-cipolla-tuna-onion.jpg" },
-        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://img.b2bpic.net/free-photo/pizza-capricciosa-with-artichokes-ham-mushrooms-olives.jpg" },
+        { id: "p4", brand: "Spezial", name: "Calabrese ", price: "12.00 CHF", rating: 5, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777751076523-23lx2qk5.jpg" },
+        { id: "p5", brand: "Spezial", name: "Hawaii", price: "12.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777751121565-sdn389c7.jpg" },
+        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "12.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777751257905-df0plsgz.webp" },
       ]}
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
