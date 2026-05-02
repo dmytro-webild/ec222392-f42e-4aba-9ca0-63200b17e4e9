@@ -86,9 +86,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Top Rated • Authentisch", name: "Margherita D.O.P. - Mit Fior di Latte & San Marzano", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop" },
-        { id: "p2", brand: "Top Rated • Würzig", name: "Diavola Luxe - Mit pikanter Ventricina-Salami", price: "21.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop" },
-        { id: "p3", brand: "Top Rated • Frisch", name: "Verdure Fresche - Mit Grillgemüse & Oliven", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" },
+        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P.", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
       ]}
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
