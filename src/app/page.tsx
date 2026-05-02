@@ -49,7 +49,7 @@ export default function LandingPage() {
       ]}
       enableKpiAnimation={true}
       buttons={[
-        { text: "Jetzt bestellen", href: "#contact" },
+        { text: "Call to order: 079 606 24 50", href: "tel:0796062450" },
       ]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
