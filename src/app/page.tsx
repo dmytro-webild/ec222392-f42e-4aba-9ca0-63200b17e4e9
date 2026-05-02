@@ -9,6 +9,7 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 
 export default function LandingPage() {
   const handleCall = () => {
@@ -36,6 +37,7 @@ export default function LandingPage() {
         { name: "Philosophie", id: "about" },
         { name: "Speisekarte", id: "menu" },
         { name: "Bewertungen", id: "testimonials" },
+        { name: "Kundenstimmen", id: "reviews" },
         { name: "Kontakt", id: "contact" },
       ]}
       brandName="Pizza da Vincenzo"
@@ -91,7 +93,7 @@ export default function LandingPage() {
         { id: "p3", brand: "Top Rated • Frisch", name: "Verdure Fresche - Mit Grillgemüse & Oliven", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" },
       ]}
       title="Unsere Speisekarte"
-      description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet. Bestellung per Anruf oder einfach direkt bei uns abholen!"
+      description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
       buttons={[
         { text: "Jetzt anrufen", onClick: handleCall }
       ]}
@@ -110,6 +112,20 @@ export default function LandingPage() {
         { id: "t3", name: "Lukas Weber", date: "Vor 3 Tagen", title: "Mein go-to Takeout", quote: "Schnell, freundlich und extrem lecker. Die Diavola ist der Wahnsinn.", tag: "Fan", avatarSrc: "https://i.pravatar.cc/150?u=3" }
       ]}
       useInvertedBackground={true}
+    />
+  </div>
+
+  <div id="reviews" data-section="reviews">
+    <TestimonialCardTen
+      title="Kundenbilder & Eindrücke"
+      description="Einblicke von unseren zufriedenen Kunden, die Pizza da Vincenzo genießen."
+      textboxLayout="default"
+      useInvertedBackground={false}
+      testimonials={[
+        { id: "r1", title: "Wunderbarer Abend", quote: "Die Pizza ist ein Kunstwerk!", name: "Julia Weber", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1594973877793-138243606f7b?q=80&w=800" },
+        { id: "r2", title: "Immer wieder lecker", quote: "Frisch, authentisch und schnell.", name: "Thomas Koch", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800" },
+        { id: "r3", title: "Bester Service", quote: "Super freundliches Personal.", name: "Elena Fischer", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=800" }
+      ]}
     />
   </div>
 
