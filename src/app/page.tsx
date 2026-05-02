@@ -3,14 +3,11 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
-import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 
 export default function LandingPage() {
   return (
@@ -84,12 +81,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P. - San Marzano Tomaten", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-seasonings-dark-desk-dough-food-pizza-meal-italian_140725-101767.jpg" },
-        { id: "p2", brand: "Spezialität", name: "Diavola Luxe - Pikante Ventricina & Honig", price: "21.00 CHF", rating: 5, reviewCount: "85", imageSrc: "http://img.b2bpic.net/free-photo/cheese-plate-with-glass-cup-smoked-cheese-middle_140725-230.jpg" },
-        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche - Saisonales Grillgemüse", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg" },
+        { id: "p1", brand: "Authentisch", name: "Margherita D.O.P. - Mit echtem Fior di Latte & San Marzano", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777747868609-hv0ylcu8.png" },
+        { id: "p2", brand: "Spezialität", name: "Diavola Luxe - Mit pikanter Ventricina-Salami", price: "21.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777747868609-hv0ylcu8.png" },
+        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche - Mit Grillgemüse & Oliven", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777747868609-hv0ylcu8.png" },
       ]}
-      title="Unsere Pizza-Highlights"
-      description="Verfeinert mit süßen San Marzano Tomaten, cremigem Fior di Latte Mozzarella und frischem Basilikum – ein authentisch neapolitanisches Geschmackserlebnis in jeder Scheibe. Bestellen Sie jetzt direkt über unsere Kontakt-Option."
+      title="Unsere Speisekarte"
+      description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
       buttons={[
         { text: "Jetzt bestellen", href: "#contact" }
       ]}
