@@ -88,7 +88,11 @@ export default function LandingPage() {
         { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg" },
       ]}
       title="Unsere Pizza-Highlights"
-      description="Verfeinert mit süßen San Marzano Tomaten, cremigem Fior di Latte Mozzarella und frischem Basilikum – ein authentisch neapolitanisches Geschmackserlebnis in jeder Scheibe."
+      description="Verfeinert mit süßen San Marzano Tomaten, cremigem Fior di Latte Mozzarella und frischem Basilikum – ein authentisch neapolitanisches Geschmackserlebnis in jeder Scheibe. Bestellen Sie jetzt direkt über unsere Kontakt-Option."
+      buttons={[
+        { text: "Jetzt bestellen", href: "#contact" }
+      ]}
+      buttonAnimation="slide-up"
     />
   </div>
 
@@ -96,10 +100,10 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
-      text="Bestellhotline: 079 606 24 50 | Adresse: Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Wir freuen uns auf Ihren Besuch!"
+      text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Montags geschlossen. Wir freuen uns auf Ihren Besuch!"
       buttons={[
         { text: "Jetzt anrufen", href: "tel:0796062450" },
-        { text: "Wegbeschreibung", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
+        { text: "Wegbeschreibung anzeigen", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
       ]}
     />
   </div>
