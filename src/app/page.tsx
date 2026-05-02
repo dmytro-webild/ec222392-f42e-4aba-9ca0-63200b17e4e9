@@ -86,12 +86,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P.", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
-        { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
-        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
-        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
-        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
-        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png" },
+        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P.", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=1" },
+        { id: "p2", brand: "Pikant", name: "Diavola Luxe", price: "22.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=2" },
+        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "20.50 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=3" },
+        { id: "p4", brand: "Spezial", name: "Prosciutto & Funghi", price: "21.50 CHF", rating: 5, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=4" },
+        { id: "p5", brand: "Spezial", name: "Tonno & Cipolla", price: "21.00 CHF", rating: 4, reviewCount: "30", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=5" },
+        { id: "p6", brand: "Klassiker", name: "Capricciosa", price: "23.00 CHF", rating: 5, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777749961153-xm49prau.png?_wi=6" },
       ]}
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
