@@ -9,7 +9,6 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 
 export default function LandingPage() {
   const handleCall = () => {
@@ -37,7 +36,6 @@ export default function LandingPage() {
         { name: "Philosophie", id: "about" },
         { name: "Speisekarte", id: "menu" },
         { name: "Bewertungen", id: "testimonials" },
-        { name: "Kundenstimmen", id: "reviews" },
         { name: "Kontakt", id: "contact" },
       ]}
       brandName="Pizza da Vincenzo"
@@ -112,23 +110,6 @@ export default function LandingPage() {
         { id: "t3", name: "Lukas Weber", date: "Vor 3 Tagen", title: "Mein go-to Takeout", quote: "Schnell, freundlich und extrem lecker. Die Diavola ist der Wahnsinn.", tag: "Fan", avatarSrc: "https://i.pravatar.cc/150?u=3" }
       ]}
       useInvertedBackground={true}
-    />
-  </div>
-
-  <div id="reviews" data-section="reviews">
-    <TestimonialCardThirteen
-      title="Kundenbilder & Eindrücke"
-      description="Einblicke von unseren zufriedenen Kunden, die Pizza da Vincenzo genießen."
-      textboxLayout="default"
-      showRating={true}
-      animationType="slide-up"
-      useInvertedBackground={false}
-      className="scale-90"
-      testimonials={[
-        { id: "r1", name: "Julia Weber", handle: "@julia.w", testimonial: "Die Pizza ist ein Kunstwerk!", rating: 5, imageSrc: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=200" },
-        { id: "r2", name: "Thomas Koch", handle: "@thomas.k", testimonial: "Frisch, authentisch und schnell.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1628843028303-34e85714314c?q=80&w=200" },
-        { id: "r3", name: "Elena Fischer", handle: "@elena.f", testimonial: "Super freundliches Personal.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1618641986557-1ecd230959aa?q=80&w=200" }
-      ]}
     />
   </div>
 
