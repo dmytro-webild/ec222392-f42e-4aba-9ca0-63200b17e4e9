@@ -96,10 +96,10 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
-      text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Montags geschlossen. Wir freuen uns auf Ihren Besuch!"
+      text="Bestellhotline: 079 606 24 50 | Adresse: Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Wir freuen uns auf Ihren Besuch!"
       buttons={[
         { text: "Jetzt anrufen", href: "tel:0796062450" },
-        { text: "Wegbeschreibung anzeigen", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
+        { text: "Wegbeschreibung", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
       ]}
     />
   </div>
