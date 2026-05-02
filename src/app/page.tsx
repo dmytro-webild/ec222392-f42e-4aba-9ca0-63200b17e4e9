@@ -122,6 +122,7 @@ export default function LandingPage() {
       textboxLayout="default"
       showRating={true}
       animationType="slide-up"
+      useInvertedBackground={false}
       testimonials={[
         { id: "r1", name: "Julia Weber", handle: "@julia.w", testimonial: "Die Pizza ist ein Kunstwerk!", rating: 5, imageSrc: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=400" },
         { id: "r2", name: "Thomas Koch", handle: "@thomas.k", testimonial: "Frisch, authentisch und schnell.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1628843028303-34e85714314c?q=80&w=400" },
