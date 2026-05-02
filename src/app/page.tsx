@@ -77,7 +77,7 @@ export default function LandingPage() {
   <div id="menu" data-section="menu">
       <ProductCardTwo
       animationType="slide-up"
-      textboxLayout="split-description"
+      textboxLayout="split-actions"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
