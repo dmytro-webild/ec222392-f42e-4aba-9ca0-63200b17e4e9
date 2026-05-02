@@ -53,7 +53,7 @@ export default function LandingPage() {
       description="Erleben Sie echte neapolitanische Pizzakunst. Handgefertigter Teig, 48 Stunden gereift, aus dem Holzofen – direkt zu Ihnen nach Hause in 10 Minuten."
       kpis={[
         {
-          value: "4.9/5",          label: "Google Rating"},
+          value: "5/5",          label: "Google Rating"},
         {
           value: "48h",          label: "Teig Reifezeit"},
         {
