@@ -84,9 +84,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P.", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-seasonings-dark-desk-dough-food-pizza-meal-italian_140725-101767.jpg" },
-        { id: "p2", brand: "Spezialität", name: "Diavola Luxe", price: "21.00 CHF", rating: 5, reviewCount: "85", imageSrc: "http://img.b2bpic.net/free-photo/cheese-plate-with-glass-cup-smoked-cheese-middle_140725-230.jpg" },
-        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg" },
+        { id: "p1", brand: "Klassiker", name: "Margherita D.O.P. - San Marzano Tomaten", price: "18.50 CHF", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-seasonings-dark-desk-dough-food-pizza-meal-italian_140725-101767.jpg" },
+        { id: "p2", brand: "Spezialität", name: "Diavola Luxe - Pikante Ventricina & Honig", price: "21.00 CHF", rating: 5, reviewCount: "85", imageSrc: "http://img.b2bpic.net/free-photo/cheese-plate-with-glass-cup-smoked-cheese-middle_140725-230.jpg" },
+        { id: "p3", brand: "Vegetarisch", name: "Verdure Fresche - Saisonales Grillgemüse", price: "19.50 CHF", rating: 5, reviewCount: "92", imageSrc: "http://img.b2bpic.net/free-photo/pasta-ingredients-composition_23-2147849731.jpg" },
       ]}
       title="Unsere Pizza-Highlights"
       description="Verfeinert mit süßen San Marzano Tomaten, cremigem Fior di Latte Mozzarella und frischem Basilikum – ein authentisch neapolitanisches Geschmackserlebnis in jeder Scheibe. Bestellen Sie jetzt direkt über unsere Kontakt-Option."
