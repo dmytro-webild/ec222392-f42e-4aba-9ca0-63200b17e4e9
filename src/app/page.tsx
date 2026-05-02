@@ -10,6 +10,10 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 
 export default function LandingPage() {
+  const handleCall = () => {
+    window.location.href = "tel:0796062450";
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -49,7 +53,7 @@ export default function LandingPage() {
       ]}
       enableKpiAnimation={true}
       buttons={[
-        { text: "Call to order: 079 606 24 50", href: "tel:0796062450" },
+        { text: "Call to order: 079 606 24 50", onClick: handleCall },
       ]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/side-view-slice-pizza-wooden-board_176474-120139.jpg"
@@ -88,7 +92,7 @@ export default function LandingPage() {
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet. Bestellung per Anruf oder einfach direkt bei uns abholen!"
       buttons={[
-        { text: "Jetzt bestellen", href: "#contact" }
+        { text: "Jetzt bestellen", onClick: handleCall }
       ]}
       buttonAnimation="slide-up"
     />
@@ -100,7 +104,7 @@ export default function LandingPage() {
       background={{ variant: "sparkles-gradient" }}
       text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. Montags geschlossen. Wir freuen uns auf Ihren Besuch!"
       buttons={[
-        { text: "Jetzt anrufen", href: "tel:0796062450" },
+        { text: "Jetzt anrufen", onClick: handleCall },
         { text: "Wegbeschreibung anzeigen", href: "https://maps.google.com/?q=Romanshornerstrasse+30+Arbon" }
       ]}
     />
@@ -114,7 +118,7 @@ export default function LandingPage() {
             { label: "Di–So: 11:00–13:00, 17:00–21:00" },
             { label: "Montag: Geschlossen" }
         ] },
-        { title: "Kontakt", items: [{ label: "Tel: 079 606 24 50" }] },
+        { title: "Kontakt", items: [{ label: "Tel: 079 606 24 50", onClick: handleCall }] },
       ]}
       bottomLeftText="© 2024 Pizza da Vincenzo"
       bottomRightText="Authentische Pizza in Arbon"
