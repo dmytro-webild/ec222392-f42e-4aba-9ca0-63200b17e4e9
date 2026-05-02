@@ -9,7 +9,7 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
+import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 
 export default function LandingPage() {
   const handleCall = () => {
@@ -116,15 +116,16 @@ export default function LandingPage() {
   </div>
 
   <div id="reviews" data-section="reviews">
-    <TestimonialCardTen
+    <TestimonialCardThirteen
       title="Kundenbilder & Eindrücke"
       description="Einblicke von unseren zufriedenen Kunden, die Pizza da Vincenzo genießen."
       textboxLayout="default"
-      useInvertedBackground={false}
+      showRating={true}
+      animationType="slide-up"
       testimonials={[
-        { id: "r1", title: "Wunderbarer Abend", quote: "Die Pizza ist ein Kunstwerk!", name: "Julia Weber", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1594973877793-138243606f7b?q=80&w=800" },
-        { id: "r2", title: "Immer wieder lecker", quote: "Frisch, authentisch und schnell.", name: "Thomas Koch", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800" },
-        { id: "r3", title: "Bester Service", quote: "Super freundliches Personal.", name: "Elena Fischer", role: "Arbon", imageSrc: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=800" }
+        { id: "r1", name: "Julia Weber", handle: "@julia.w", testimonial: "Die Pizza ist ein Kunstwerk!", rating: 5, imageSrc: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=400" },
+        { id: "r2", name: "Thomas Koch", handle: "@thomas.k", testimonial: "Frisch, authentisch und schnell.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1628843028303-34e85714314c?q=80&w=400" },
+        { id: "r3", name: "Elena Fischer", handle: "@elena.f", testimonial: "Super freundliches Personal.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1618641986557-1ecd230959aa?q=80&w=400" }
       ]}
     />
   </div>
