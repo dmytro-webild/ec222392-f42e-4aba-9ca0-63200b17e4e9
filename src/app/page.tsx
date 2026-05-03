@@ -115,10 +115,10 @@ export default function LandingPage() {
         { value: "100%", label: "Neapolitanisch" }
       ]}
       testimonials={[
-        { id: "1", name: "Elena S.", role: "Stammkundin", company: "Arbon", rating: 5 },
-        { id: "2", name: "Marco R.", role: "Feinschmecker", company: "St. Gallen", rating: 5 },
-        { id: "3", name: "Julia M.", role: "Liebhaberin", company: "Romanshorn", rating: 5 },
-        { id: "4", name: "Luca T.", role: "Pizza-Fan", company: "Amriswil", rating: 5 }
+        { id: "1", name: "Maria D.", role: "Stammkundin", company: "Arbon", rating: 5 },
+        { id: "2", name: "Nicola L.", role: "Feinschmecker", company: "St. Gallen", rating: 5 },
+        { id: "3", name: "Julia S.", role: "Liebhaberin", company: "Romanshorn", rating: 5 },
+        { id: "4", name: "Amando T.", role: "Pizza-Fan", company: "Amriswil", rating: 5 }
       ]}
     />
   </div>
