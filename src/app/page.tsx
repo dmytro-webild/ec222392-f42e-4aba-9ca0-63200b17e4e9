@@ -134,7 +134,7 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
-      text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon.\n Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. \nMontags geschlossen. \nWir freuen uns auf Ihren Besuch!"
+      text="Besuchen Sie uns in der Romanshornerstrasse 30, Arbon. Geöffnet Di–So: 11:00–13:00 & 17:00–21:00. \nMontags geschlossen. \nWir freuen uns auf Ihren Besuch!"
       buttons={[
         { text: "Jetzt anrufen: 079 606 24 50", onClick: handleCall },
         { text: "Jetzt anrufen: 076 734 82 99", onClick: handleCallTwo },
