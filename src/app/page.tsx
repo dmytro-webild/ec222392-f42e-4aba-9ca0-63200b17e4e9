@@ -101,6 +101,7 @@ export default function LandingPage() {
       title="Unsere Speisekarte"
       description="Entdecken Sie die Qualität unserer handverlesenen Zutaten. Von feinstem Mehl bis zu den frischesten Tomaten aus Italien – jedes Element ist auf authentischen Geschmack ausgerichtet."
       buttons={[
+        { text: "Speisekarte anzeigen", href: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1778004417172-8v2hsw7z.jpg" },
         { text: "Jetzt anrufen: 079 606 24 50", onClick: handleCall },
         { text: "Jetzt anrufen: 076 734 82 99", onClick: handleCallTwo }
       ]}
