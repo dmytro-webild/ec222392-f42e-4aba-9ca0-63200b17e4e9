@@ -50,7 +50,7 @@ export default function LandingPage() {
       <HeroSplitKpi
       background={{ variant: "gradient-bars" }}
       title="Pizza da Vincenzo: Echte Pizzakunst in Arbon"
-      description="Ihr Takeout-Spezialist in Arbon. Wir backen authentische neapolitanische Pizza mit handgefertigtem, 48 Stunden gereiftem Teig direkt aus dem Holzofen – in nur 10 Minuten für Sie bereit."
+      description="Ihr Takeout-Spezialist in Arbon. Wir backen authentische neapolitanische Pizza mit handgefertigtem, 48 Stunden gereiftem Teig – in nur 10 Minuten für Sie bereit."
       kpis={[
         { value: "5/5", label: "Google Rating" },
         { value: "48h", label: "Teig Reifezeit" },
