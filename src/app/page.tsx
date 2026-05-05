@@ -91,7 +91,7 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Klassiker", name: "Margherita", price: "10.00 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750662221-iat8qgmr.webp" },
+        { id: "p1", brand: "Klassiker", name: "Margherita Mozzarella", price: "10.00 CHF", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750662221-iat8qgmr.webp" },
         { id: "p2", brand: "Pikant", name: "Funghi ", price: "10.00 CHF", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750863137-3j35k8bn.avif" },
         { id: "p3", brand: "Vegetarisch", name: "Quattro Formaggi ", price: "12.00 CHF", rating: 5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777750909213-bkp41ihq.jpg" },
         { id: "p4", brand: "Spezial", name: "Calabrese ", price: "12.00 CHF", rating: 5, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAtkWOWBa86HVvKFKzqRK21Dwe/uploaded-1777751076523-23lx2qk5.jpg" },
